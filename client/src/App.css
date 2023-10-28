@@ -1,0 +1,36 @@
+.App{
+  min-height: 100vh;
+  background-image: url("https://as1.ftcdn.net/v2/jpg/02/52/12/40/1000_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.search-button{
+  background: rgb(222, 51, 25);
+  border: none;
+  border-radius:40px;
+  padding: 10px 20px;
+  color: white;
+  align-items: center;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
